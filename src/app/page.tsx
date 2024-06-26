@@ -1,8 +1,10 @@
 import FeaturedCourses from "@/components/FeaturedCourses";
+import Footer from "@/components/Footer";
 import HeroSection from "@/components/HeroSection";
 import MovingCards from "@/components/MovingCards";
 import UpcomingWebinars from "@/components/UpcomingWebinars";
 import WhyChooseUs from "@/components/WhyChooseUs";
+import Instructors from "@/components/Instructors";
 import Image from "next/image";
 
 export default function Home() {
@@ -13,6 +15,8 @@ export default function Home() {
       <WhyChooseUs/>
       <MovingCards/>
       <UpcomingWebinars/>
+      <Instructors/>
+      <Footer/>
     </main>
   );
 }

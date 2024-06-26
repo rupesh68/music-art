@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+"use client";
 import { InfiniteMovingCards } from "@/components/ui/infinite-moving-cards";
 const testimonials = [
   {
