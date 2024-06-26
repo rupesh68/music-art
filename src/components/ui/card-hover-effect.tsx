@@ -1,6 +1,3 @@
-
-
-
 import { cn } from "@/utlis/cn";
 import { AnimatePresence, motion } from "framer-motion";
 import Link from "next/link";
